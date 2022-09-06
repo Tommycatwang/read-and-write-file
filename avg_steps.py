@@ -23,13 +23,13 @@ for record in csvfile:
         count22=0
         monthinna= mon_inyear[x-1]
         format_two="{:.2f}".format(count11)
-        write1.write(monthinna + ' ' + str(format_two) +'\n')
+        write1.write(monthinna + ', ' + str(format_two) +'\n')
         x=0
         count11=int(record[1])
 count11=count11/count22
 count22=0
 monthinna= mon_inyear[x-1]
 format_two="{:.2f}".format(count11)
-write1.write(monthinna + ' ' + str(format_two) +'\n')
+write1.write(monthinna + ', ' + str(format_two) +'\n')
 write1.close()
 infile.close()
