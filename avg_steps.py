@@ -20,7 +20,7 @@ for record in csvfile:
         x = int(record[0])
     else:
         count11=count11/count22
-        count22=0
+        count22=1
         monthinna= mon_inyear[x-1]
         format_two="{:.2f}".format(count11)
         write1.write(monthinna + ', ' + str(format_two) +'\n')
